@@ -113,6 +113,7 @@
 #  if (PY_MAJOR_VERSION == 3 && PY_MINOR_VERSION < 4)
 #    define HAVE_ROUND 1
 #  endif
+#  include <corecrt.h>
 #  pragma warning(push)
 #  pragma warning(disable: 4510 4610 4512 4005)
 #  if defined(_DEBUG) && !defined(Py_DEBUG)
